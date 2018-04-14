@@ -1,0 +1,156 @@
+*,p {
+  color: white;
+	font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+
+}
+h1{
+  color: red;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+h2{
+  font-weight: 700;
+  padding: 20px 0 20px 0;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+h4 {
+  padding: 10px 0 5px 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+main a {
+  color: red;
+  text-decoration: none;
+}
+
+main a:hover{
+  text-decoration: underline;
+}
+footer a {
+  text-decoration: none;
+}
+
+footer p{
+	padding-top: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+section p {
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+	color: black;
+}
+
+.list{
+  line-height: 1.3;
+  font-size: 20px;
+}
+
+
+.list li ul li {
+  padding-left: 40px;
+}
+.long_main{
+  height: 460px;
+
+}
+
+/*Authors*/
+
+
+
+.author{
+  display: block;
+  text-align: center;
+
+}
+.contact a:hover {
+  text-decoration: none;
+}
+
+.author p {
+  margin: auto;
+  padding: 20px;
+  border-bottom: 2px solid grey;
+}
+
+.photo {
+  padding: 5px;
+}
+
+.facebook{
+    width: 42px;
+    height: 30px;
+    border: 0;
+}
+.gmail{
+    width: 33px;
+    height: 25px;
+    border: 0;
+    margin-bottom: 2px;
+}
+
+.author h2{
+  color: red;
+}
+
+.timetable{
+  margin-top: 30px;
+}
+
+ .timetable *:not(caption) {
+  border: solid grey 2px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.timetable caption{
+  color: red;
+}
+
+#frontimage{
+  padding-bottom: 20px;
+}
+
+#frontmain p{
+  padding: 10px;
+}
+
+@media only screen and (max-width : 900px) {
+
+  main img {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width : 500px) {
+
+
+  p{
+    text-align: justify;
+  }
+
+  .centdown{
+    display: block;
+  }
+
+  .timetable{
+    display: none;
+  }
+}
